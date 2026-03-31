@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ✨ AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <title>dr.hadni</title>
+  </head>
+  <body>
+    <main class="container">
+      
+      <!-- 🎧 AUDIO -->
+      <audio id="bgm" loop>
+        <source src="audio.mp3" type="audio/mpeg">
+      </audio>
+
+      <!-- 🐱 IMAGE -->
+      <img data-aos="fade-up" class="cat-img" src="img/hadniy.jpeg" alt="Picture of a cat" />
+
+      <!-- 📝 TEXT -->
+      <p data-aos="fade-up" class="title">Dear Hadni</p>
+
+      <p data-aos="fade-up" class="subtitle">
+        I want to be honest I really like you as a human being. We’ve known each other for seven months now, and I’ve realized that I love you very much. I know our story is a bit complicated, but I hope you can forgive me.
+      </p>
+
+      <p data-aos="fade-up" class="sabtitle">
+        We’ve shared so many stories, so much kindness, and so much happiness. So, Hadney....
+      </p>  
+       
+      <!-- 🔘 BUTTON -->
+      <div data-aos="fade-up" class="buttons">
+        <a href="wait.html">
+          <button type="button" class="btn btn--yes">next</button>
+        </a>
+      </div>
+
+    </main>
+
+    <script src="script.js" defer></script>
+
+    <!-- ✨ AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // animasi 1 detik
+        once: true      // hanya animasi sekali
+      });
+    </script>
+  </body>
+</html>
